@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+body {
+  color: white;
+  background-color: black;
+  margin: 0; /* Reset default margin */
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: greenyellow;
+  padding: 10px;
+}
+
+.navbar-left {
+  padding-left: 20px;
+}
+
+.navbar-right {
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ham {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid blue;
+  background-color: yellow;
+  color: black;
+  font-family: serif;
+  text-decoration: none;
+}
+
+.star {
+  font-family: 'Rubik Doodle Shadow', cursive;
+  color: orangered;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 18vh;
+  border: 3px solid red;
+  padding: 10px;
+}
+
+.home-left {
+  width: 7#3038920%;
+  text-align: right;
+}
+
+.home-right {
+  width: 30%;
+  text-align: left;
+}
+
+.image {
+  height: 15vh;
+  width: 15vh;
+  border-radius: 50%;
+  border: 2px solid grey;
+  margin-right: 10px;
+}
+
+.services {
+  position: relative;
+  top: 50px; /* Adjust as needed */
+  padding: 20px;
+}
+
+.services h1 {
+  color: orangered;
+  text-align: center;
+}
+
+.services-card {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;px
+}
+
+.services-card h2 {
+  color: #E4F237;
+}
+.contact{
+	text-align: center;
+}
+.contact h1 {
+  color: orangered;
+  text-align: center;
+}
+.contact-info p{
+   font-size: 20px;
+   font-family : sans-serif;
+}
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-right:430px;
+  margin-left:430px;/* Adjust the margin as needed */
+}
+
+.today {
+  height: 50px;
+  width: 50px;
+}
+.highway{
+	height:70px;
+	weight:70px;
+}
+
